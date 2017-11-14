@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.machi.alarmas3.BlankFragment">
+
+    <TextView
+        android:layout_width="400sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Alarma"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25sp"
+        android:text="@string/agregar_una_nueva_alarma"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="25sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnfecha"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="30"
+            android:background="@color/colorPrimary"
+            android:text="Fecha"
+            android:textColor="@android:color/background_light" />
+
+        <EditText
+            android:id="@+id/txtfecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:editable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="25sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnhora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="30"
+            android:background="@color/colorPrimary"
+            android:text="Hora"
+            android:textColor="@android:color/background_light" />
+
+        <EditText
+            android:id="@+id/txthora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:editable="true" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnagregar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30sp"
+        android:background="@color/colorPrimary"
+        android:text="Agregar"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>

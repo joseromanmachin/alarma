@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Alarma </string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agregar_una_nueva_alarma">Agregar Una Nueva Alarma</string>
+</resources>
